@@ -1,0 +1,62 @@
+.box-left{
+    float: left;
+    width: 45%;
+    border: 3px solid rgb(204,153,255);
+    border-radius: 15px;
+    padding: 10px;
+
+}
+
+.box-right{
+    float:right;
+    width: 45%;
+    border: 3px dashed rgb(153,204,255);
+    border-radius: 15px;
+    padding: 10px; 
+
+}
+
+.box-top{
+    float:top;
+    text-align: center;
+    background-color:rgb(153, 255, 204);
+}
+
+*{
+    font-family: 'Diphylleia', serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+h1{
+    font-family: 'Libre Baskerville';
+    font-size: 40px;
+    text-decoration: none;
+
+}
+
+h3{
+    font-family: 'Libre Baskerville';
+    font-size: 18px;
+    
+}
+
+body{
+    background-color:ivory
+
+}
+
+.img-menu{
+    width: 75%;
+    height: 75%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.img-boat{
+    width: 75%;
+    height: 75%;
+    overflow: hidden;
+    object-fit: cover;
+
+}
