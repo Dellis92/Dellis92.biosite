@@ -1,38 +1,39 @@
-.box-left{
-    float: left;
-    width: 45%;
-    border: 3px solid rgb(204,153,255);
-    border-radius: 15px;
-    padding: 10px;
-
-}
-
-.box-right{
-    float:right;
-    width: 45%;
-    border: 3px dashed rgb(153,204,255);
-    border-radius: 15px;
-    padding: 10px; 
-
-}
-
-.box-top{
-    float:top;
-    text-align: center;
-    background-color:rgb(153, 255, 204);
-}
-
 *{
     font-family: 'Diphylleia', serif;
     font-family: 'Libre Baskerville', serif;
     font-family: 'Oswald', sans-serif;
 }
 
+#info-box{
+    display:grid;
+    grid-template-columns: auto auto auto;
+}
+
+.box-left{
+    border: 3px solid rgb(34, 59, 46);
+    background-color: rgba(153,255,204.2);
+}
+
+.box-right{
+    border: 3px solid rgb(34, 59, 46);
+    background-color: rgba(153,255,204.2);
+}
+
+footer{
+    border: 3px solid rgb(34, 59, 46);
+    text-align: center;
+}
+
 h1{
     font-family: 'Libre Baskerville';
     font-size: 40px;
     text-decoration: none;
+    text-align: center;
+}
 
+h4{
+    font-size: 20px;
+    font-family: 'Libre Baskerville';
 }
 
 h3{
@@ -41,22 +42,24 @@ h3{
     
 }
 
-body{
-    background-color:ivory
-
+figure{
+    text-align: center;
 }
 
-.img-menu{
-    width: 75%;
-    height: 75%;
-    overflow: hidden;
-    object-fit: cover;
+h1,h3,h4,p{
+    color: rgb(34, 59, 46);
+    text-align: center;
 }
 
-.img-boat{
-    width: 75%;
-    height: 75%;
-    overflow: hidden;
-    object-fit: cover;
+img{
+    height: 350px;
+    width: 400px;
+}
 
+html{
+    background-color: rgb(255, 246, 234);
+}
+
+li{
+    color: rgb(34, 59, 46);
 }

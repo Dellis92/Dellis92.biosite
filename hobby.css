@@ -7,6 +7,7 @@ font-family: 'Libre Baskerville', serif;
     display: grid;
     grid-template-columns:auto auto auto;
     margin-top: 2%;
+    background-color: rgba(153,255,204.2);
 }
 
 img{
@@ -30,13 +31,13 @@ p{
 }
 
 html{
-    background-color: rgba(153,255,204.2);
+    background-color: rgb(255, 246, 234);
 }
 
 .grid-item{
-    border: solid 1px rgb(34, 59, 46);
+    border: solid 3px rgb(34, 59, 46);
 }
 
 footer{
-    border: solid 1px rgb(34, 59, 46);
+    border: solid 3px rgb(34, 59, 46);
 }
