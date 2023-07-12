@@ -19,10 +19,12 @@
     background-color: rgba(153,255,204.2);
 }
 
-footer{
+.footer{
     border: 3px solid rgb(34, 59, 46);
     text-align: center;
+    float: bottom;
 }
+
 
 h1{
     font-family: 'Libre Baskerville';
@@ -39,7 +41,12 @@ h4{
 h3{
     font-family: 'Libre Baskerville';
     font-size: 18px;
-    
+}
+
+h5{
+    font-size: 20px;
+    color: black;
+    font-family: 'Libre Baskerville';
 }
 
 figure{
