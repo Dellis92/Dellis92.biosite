@@ -43,8 +43,8 @@ h3{
 }
 
 img{
-    height:400px;
-    width: 400px;
+    height:350px;
+    width: 350px;
     text-align: center;
 }
 
@@ -70,6 +70,7 @@ html{
 #navbar {
     overflow: hidden;
     background-color: rgb(34, 59, 46);
+    font-family: 'Libre Baskerville';
 }
 
 #navbar a {
@@ -79,6 +80,7 @@ html{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: 'Libre Baskerville';
 }
 
 #navbar a:hover {
